@@ -3,47 +3,7 @@
 <head>
     <title>WEB1-study</title>
     <meta charset="utf-8">
-    <style>
-        a {color:black;
-            text-decoration: none;
-        }
-        h1 {font-size:45px;
-            text-align:center;
-            border-bottom:1px solid gray;
-             margin:0;
-            padding:20px;
-            }
-        ol { 
-            border-right:1px solid gray;
-             width:100px;
-            margin:0;
-             padding:20px;
-            }
-        body{
-            margin:0;
-            }
-        #grid{
-            display:grid;
-            grid-template-columns: 150px 1fr;
-        }
-        #grid ol{
-            padding-left: 32px;
-        }
-        #article{
-            padding:25px;
-        }
-        @media(max-width:1280){
-                #grid{
-                display:block;
-                }
-                ol { 
-                border-right:none;
-                }
-                h1{
-                border-bottom:none;
-                }
-            }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1><a href="index.html">WEB</a></h1>
@@ -66,6 +26,8 @@
                         선택자를 쓸때도 선택자가 많아지면 어떤것을 grid 하는지 구분이 힘듬.
                         따라서 id""(#grid) 이런식으로 그리드뒤에 선택자를 붙여줘서 구분.</li>
                     <li>media 태그를 이용하여 일정 크기 이상이 되면 그에 따른 상태를 조절할 수 있다.</li>
+                    <li>결국은 효율적으로 정보를 제공하기 위해 기술들이 사용되는 것이다. 폭발적 효과.
+                    <a style="color:red; text-decoration:underline;">(link rel = "stylesheet" href = "---.css")</a></li>
                 </ul>
             <h2>CSS</h2>
                 <img src="css.jpeg" width="20%">
